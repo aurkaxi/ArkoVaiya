@@ -1,8 +1,5 @@
-# ArkoVaiya
-Only bot of Ashenite
-
-## Workflow
-#### Bot Joined new/previous guild.
+# Workflow
+### Bot Joined new/previous guild.
 + [ ] Creates Channel for:
     + [x] Logs: Sends notices, errors and important action records for crystal clear moderation.
     + [x] Webook: Send Pre-Made messages and add them to template database.
