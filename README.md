@@ -1,7 +1,7 @@
 -   [ ] Bot Joined A Server: Bot will check if it was in this server previously to restore settings.
     -   [ ] If it was in this server previously: Bot will throughly check each settings and restore them. If there is an update it will be automatically patched. It will send a message to logs channel. All the setups are listed in next section.
     -   [ ] If this is a new server: Bot will setup everything and add them to database
--   [] Initial Setups for the server:
+-   [ ] Initial Setups for the server:
 
     -   [ ] Creates Dashboard/Modmin channels: These channels are for the admins and moderators to modify the settings of the bot for their server.
 
