@@ -17,8 +17,5 @@
                 -   [ ] Set a role to be given to the user when they join the server.
 
 ### Error Handling
-
--   [ ] Sends you error message with help message if you did something wrong.
-
--   [x] Submit a error report which will be emailed to developer (not from your email).
+-   [x] Sends a message with possible solution and optionally report to developer.
         ![submit_error_Demo](https://user-images.githubusercontent.com/72933395/226837034-8bdb805e-5514-4cc2-8759-4b795b19aa05.gif)
