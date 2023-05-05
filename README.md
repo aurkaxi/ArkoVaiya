@@ -1,7 +1,7 @@
 # ArkoVaiya
 100 in 1 bot to manage your tasks from discord. You don't necessarily have to use a website to manage the bot (you can if you want), nor do you have to memorize ugly commands. Manage everything possible with Views, Buttons, Select Menus/Dropdown, Modals/PopUp with live preview. And high-ly customizable settings.
 
-### This page is supposed to be an about page for the bot. Source code is not open. Sorry!
+### This page is supposed to be an about page for the bot. Source code is not open. Sorry! [Track progress Here](https://github.com/users/aurkaxi/projects/7)
 
 ## List of Functionalities / Features / Capabilities 
 <details><summary>Moderation: This works as the <b>head</b> of the bot. This controlls everything.</summary>
