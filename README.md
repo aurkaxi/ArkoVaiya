@@ -1,21 +1,33 @@
--   [ ] Bot Joined A Server: Bot will check if it was in this server previously to restore settings.
-    -   [ ] If it was in this server previously: Bot will throughly check each settings and restore them. If there is an update it will be automatically patched. It will send a message to logs channel. All the setups are listed in next section.
-    -   [ ] If this is a new server: Bot will setup everything and add them to database
--   [ ] Initial Setups for the server:
+# ArkoVaiya
+100 in 1 bot to manage your tasks from discord. You don't necessarily have to use a website to manage the bot (you can if you want), nor do you have to memorize ugly commands. Manage everything possible with Views, Buttons, Select Menus/Dropdown, Modals/PopUp with live preview. And high-ly customizable settings.
 
-    -   [ ] Creates Dashboard/Modmin channels: These channels are for the admins and moderators to modify the settings of the bot for their server.
+### This page is supposed to be an about page for the bot. Source code is not open. Sorry!
 
-        -   [x] Logs: Used for sendind necessary log messages for the moderators and admins.
+## List of Functionalities / Features / Capabilities 
+<details><summary>Moderation: This works as the <b>head</b> of the bot. This controlls everything.</summary>
 
-        -   [ ] Join-Leave: Settings for member joining, leaving and inviting events
+#### Features:
++ [ ] Ai Moderation: Every Message is passed through an A.I. (not chatGPT) too detect bad words. If confidence score is  higher than 75%, message will be removed and user will be warned once.
 
-            -   [x] Edit/Build messages to send when a event triggers
-            -   [ ] Set channels to send those messages
-            -   [ ] Extra addons or settings
++ [ ] Warn: Any violation adds one warning to the user and assert regarding punishment. Moderators with `mnage_essages` permission can add warning to other users.
 
-                -   [ ] Create a private channel for the user. No need to take extra steps to create a support channel for the user.
-                -   [ ] Set a role to be given to the user when they join the server.
++ [ ] Punishment:
+    - 1 hour timeout for each warning.
+    - kick if reached 3 warnings.
+    - ban if previously kicked 3 times.
+    
++ [ ] TODO
 
-### Error Handling
--   [x] Sends a message with possible solution and optionally report to developer.
-        ![submit_error_Demo](https://user-images.githubusercontent.com/72933395/226837034-8bdb805e-5514-4cc2-8759-4b795b19aa05.gif)
+#### Customization:
++ [ ] Toggle (Enable/Disable) Ai Moderation.
+
++ [ ] Change Warn Limit for Ai Moderation.
+
++ [ ] Change global warn limit.
+
++ [ ] Change each warn punishment.
+
++ [ ] Change warn limit reaching punishment.
+
++ [ ] Change kick limit reaching punishment.
+</details>
